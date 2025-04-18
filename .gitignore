@@ -1,1 +1,10 @@
-/Tables/dbo.NewTable.sql
+# -----------------------------------------------------------------
+# .gitignore for SQL Change Automation
+# -----------------------------------------------------------------
+
+bin/
+obj/
+Tables/dbo.NewTable.sql
+/*.dbmdl
+/*.jfm
+/*.sqlproj.user
