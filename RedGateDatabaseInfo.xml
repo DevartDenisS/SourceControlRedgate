@@ -64,6 +64,11 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>5</Count>
+    <DataFile>Sales.Orders_Data.sql</DataFile>
+    <DataFile>dbo.Orders_Data.sql</DataFile>
+    <DataFile>Sales.Customers_Data.sql</DataFile>
+    <DataFile>dbo.Products_Data.sql</DataFile>
+    <DataFile>dbo.Customers_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
