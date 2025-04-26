@@ -1,0 +1,5 @@
+CREATE CONTRACT [SB_Contract]
+AUTHORIZATION [dbo] (
+[SB_Message] SENT BY INITIATOR
+)
+GO
