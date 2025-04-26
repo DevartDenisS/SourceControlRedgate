@@ -1,5 +1,0 @@
-INSERT INTO [Sales].[Orders] ([OrderID], [CustomerID], [OrderDate], [Amount]) VALUES (101, 1, '2024-01-10', 120.0000)
-INSERT INTO [Sales].[Orders] ([OrderID], [CustomerID], [OrderDate], [Amount]) VALUES (102, 2, '2024-02-15', 180.2500)
-INSERT INTO [Sales].[Orders] ([OrderID], [CustomerID], [OrderDate], [Amount]) VALUES (103, 3, '2024-03-20', 99.9900)
-INSERT INTO [Sales].[Orders] ([OrderID], [CustomerID], [OrderDate], [Amount]) VALUES (104, 1, '2024-04-01', 200.0000)
-INSERT INTO [Sales].[Orders] ([OrderID], [CustomerID], [OrderDate], [Amount]) VALUES (105, 5, '2024-04-10', 75.7500)
