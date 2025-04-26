@@ -2,6 +2,10 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
+
+
+-- NewObjects
+
 -- Create database-level DDL trigger that just warns
 CREATE TRIGGER [trg_DDL_Warning]
 ON DATABASE
