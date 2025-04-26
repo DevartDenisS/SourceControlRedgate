@@ -65,7 +65,7 @@
   </WriteToFileOptions>
   <DataFileSet>
     <Count>2</Count>
-    <DataFile>Sales.Orders_Data.sql</DataFile>
     <DataFile>Sales.Customers_Data.sql</DataFile>
+    <DataFile>Sales.Orders_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
