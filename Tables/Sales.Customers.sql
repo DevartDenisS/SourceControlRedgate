@@ -20,6 +20,18 @@ BEGIN
     PRINT 'New customer inserted';
 END;
 GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE TRIGGER [Sales].[trg_Customers_SimpleMsg]
+ON [Sales].[Customers]
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    PRINT 'Customers table changed';
+END;
+GO
 ALTER TABLE [Sales].[Customers] ADD CONSTRAINT [CHK_Email] CHECK (([Email] like '%@%'))
 GO
 ALTER TABLE [Sales].[Customers] ADD CONSTRAINT [PK__Customer__A4AE64B8F9E2427F] PRIMARY KEY CLUSTERED ([CustomerID]) ON [PRIMARY]
