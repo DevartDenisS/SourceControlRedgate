@@ -9,9 +9,9 @@ CREATE FUNCTION [Sales].[GetOrdersByCustomer] (
 RETURNS TABLE
 AS
 RETURN
-    SELECT OrderID, OrderDate, Amount
+    SELECT OrderID, OrderDate
     FROM Sales.Orders
-    WHERE CustomerID = @CustomerID;
+    WHERE CustomerID = @CustomerID
 GO
 EXEC sp_addextendedproperty N'MS_Description', N'Returns all orders placed by the specified customer', 'SCHEMA', N'Sales', 'FUNCTION', N'GetOrdersByCustomer', NULL, NULL
 GO
